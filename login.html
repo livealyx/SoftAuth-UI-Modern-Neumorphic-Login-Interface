@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Access Your Account</title>
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <main class="login-container">
+        <div class="login-card">
+            <h1 class="login-title">Access Your Account</h1>
+
+            <!-- Google Sign-In Button -->
+            <button type="button" class="google-btn">
+                <img src="https://www.svgrepo.com/show/475656/google-color.svg" alt="Google Logo" class="google-icon">
+                Sign in with Google
+            </button>
+
+            <div class="divider">
+                <span>OR</span>
+            </div>
+
+            <form class="login-form">
+                <!-- Username Input -->
+                <div class="input-group">
+                    <input type="text" id="username" name="username" required placeholder=" " autocomplete="username">
+                    <label for="username">Username or Email</label>
+                    <button type="button" class="clear-input" aria-label="Clear username" tabindex="-1">
+                        <i class="fa-solid fa-xmark"></i>
+                    </button>
+                </div>
+
+                <!-- Password Input -->
+                <div class="input-group">
+                    <input type="password" id="password" name="password" required placeholder=" " autocomplete="current-password">
+                    <label for="password">Password</label>
+                    <button type="button" class="toggle-password" aria-label="Toggle password visibility">
+                        <i class="fa-regular fa-eye-slash" id="eye-icon"></i>
+                    </button>
+                </div>
+
+                <!-- Remember Me & Forgot Password -->
+                <div class="form-actions">
+                    <label class="remember-me">
+                        <input type="checkbox" name="remember">
+                        <span class="checkmark"></span>
+                        Remember me
+                    </label>
+                    <a href="#" class="forgot-password">Forgot password?</a>
+                </div>
+
+                <!-- Submit Button -->
+                <button type="submit" class="submit-btn">Sign in</button>
+            </form>
+
+            <p class="signup-link">
+                Don't have an account? <a href="#">Sign up</a>
+            </p>
+        </div>
+    </main>
+
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+</body>
+</html>
