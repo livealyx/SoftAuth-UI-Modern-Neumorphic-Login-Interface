@@ -4,7 +4,7 @@ It features a clean floating login card, smooth micro-interactions, Google sign-
 
 This project is ideal for SaaS dashboards, admin panels, LMS portals, CRM systems, and startup products that require a premium, minimal and user-friendly authentication experience.
 
-✨ Key Highlights
+✨ <b>Key Highlights</b>
 
 • Soft neumorphic design<br>
 • Floating glass-style auth card<br>
