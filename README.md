@@ -7,11 +7,11 @@ This project is ideal for SaaS dashboards, admin panels, LMS portals, CRM system
 ✨ Key Highlights
 
 • Soft neumorphic design<br>
-• Floating glass-style auth card
-• Responsive mobile-first layout
-• Google sign-in UI support
-• Animated input fields
-• Show/Hide password toggle
-• Smooth hover and focus effects
-• SEO & accessibility friendly markup
-• Clean, well-structured codebase
+• Floating glass-style auth card<br>
+• Responsive mobile-first layout<br>
+• Google sign-in UI support<br>
+• Animated input fields<br>
+• Show/Hide password toggle<br>
+• Smooth hover and focus effects<br>
+• SEO & accessibility friendly markup<br>
+• Clean, well-structured codebase<br>
