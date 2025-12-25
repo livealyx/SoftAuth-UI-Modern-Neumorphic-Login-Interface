@@ -6,7 +6,7 @@ This project is ideal for SaaS dashboards, admin panels, LMS portals, CRM system
 
 ✨ Key Highlights
 
-• Soft neumorphic design
+• Soft neumorphic design<br>
 • Floating glass-style auth card
 • Responsive mobile-first layout
 • Google sign-in UI support
